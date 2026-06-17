@@ -6,7 +6,7 @@ Computer Vision project using YOLOv8 and Python for object detection.
 
 This project demonstrates object detection using a pretrained YOLOv8 model from Ultralytics.
 
-The model identifies multiple objects in an image, generates bounding boxes and provides confidence scores for each prediction.
+The model identifies multiple objects in an image, generates bounding boxes, and provides confidence scores for each prediction.
 
 ## Technologies
 
@@ -28,12 +28,30 @@ The model identifies multiple objects in an image, generates bounding boxes and 
 
 ## Results
 
+### Example Detection
+
+![YOLO Detection](images/sample_detection.jpg)
+
 Detected objects include:
 
 - Person
 - Bus
 - Stop Sign
 - Tie
+
+The model successfully generated bounding boxes and confidence scores for each detected object.
+
+## Repository Structure
+
+```text
+YOLO-object-detection
+│
+├── README.md
+├── notebooks
+│   └── yolo_object_detection.ipynb
+└── images
+    └── sample_detection.jpg
+```
 
 ## Future Improvements
 
@@ -43,6 +61,10 @@ Detected objects include:
 - Video object detection
 
 ## Author
+
+Sebastián Díaz
+
+Electrical Engineer | Data Scientist | ML & AI Engineer
 
 Sebastián Díaz
 
